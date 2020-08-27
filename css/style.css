@@ -1,0 +1,1126 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body
+{
+    background-color: #f4eeee;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+img
+{
+    width: 100%;
+}
+/*Start Navbar*/
+nav 
+{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fdc903;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+nav ul li 
+{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav ul li:first-of-type a
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin:0px 300px 0px 20px;
+}
+
+.dropdown 
+{
+    height: 20px;
+    width: 10%;
+    text-align: center;
+}
+.dropdown ul li:first-of-type a
+{
+    font-weight: 100;
+    font-size: 20px;
+    margin:0px;
+}
+.dropdown .dropdown-menu  li
+{
+    display: none;
+    margin-left: -120px;
+    width: 80px;
+    padding: 5px;
+    background-color:#fdc903;
+    border-bottom: 1px solid white;
+}
+.dropdown .dropdown-menu li:first-of-type
+{
+    margin-top: 44px;
+    border-top: 1px solid white;
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-click
+{
+}
+.nav-click p
+{
+    background-color: #6a6363;
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+}
+.nav-button 
+{
+    background-color: #fdc903;
+    margin-top: 20px;
+    width: 40px;
+    padding: 0px;
+    border-color: #9c9c9c;
+    position: absolute;
+    right: 1px;
+    
+}
+/*End Navbar*/
+/*Start banner*/
+header 
+{
+    background-image: url(../img/header.jpg);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    padding: 180px 0px;
+    position: relative;
+    margin-top: 70px;
+}
+h1 
+{
+    font-family: "Raleway";
+    font-size: 55px;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 0px;
+}
+header p
+{
+    font-size: 20px;
+}
+.banner-overlay
+{ 
+    background-color: rgba(45, 41, 41, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+/*End banner*/
+/*Start services*/
+.our-services
+{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.our-services div
+{
+    width: 30%;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.our-services div:first-of-type , .our-services div:nth-of-type(4)
+{
+    margin-left: 7%;
+}
+h4
+{
+    font-size: 20px;
+}
+.icons-color
+{
+    color:#fdc903;
+}
+ .our-services .service-paragraph ,.our-services h3 
+    {
+        text-align: center;
+    }
+/*End services*/
+
+.more
+{
+    width: 100px;
+    height: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3cece;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #fdc903;
+    color: white
+}
+.more:hover
+{
+    background-color: black;
+}
+h3
+{
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+/*Start Responsive*/
+.responsive
+{
+    background-color: #e1e1e1;
+    padding-bottom: 320px;
+    padding-left: 50px;
+}
+
+.left-side ,.right-side
+{
+    width: 50%;
+    float: left;
+}
+.responsive p
+{
+    text-align: center;
+}
+.responsive .more
+{
+    margin-left: 200px;
+}
+/*End Responsive*/
+.our-works .header
+{
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+}
+.work-models
+{
+    margin-left: 1%;
+}
+.work-models > div
+{
+    float: left;
+    width: 23%;
+    margin: 10px;
+}
+
+
+/*Start bar*/
+.bar
+{
+    background-color: #fdc903;
+    padding: 20px;
+    height: 110px;
+    margin: auto;
+    
+}
+.bar div
+{
+    width: 10%;
+    float: left;
+    margin-left: 100px;
+}
+/*End bar*/
+/*Start mobile Section*/
+.mobile
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.mobile .left-side img
+{
+    padding-top: 30px;
+    height: 70%;
+}
+.mobile .right-side 
+{
+    padding-left: 50px;
+}
+.mobile .right-side p 
+{
+    font-size: 20px;
+    padding-left: 25px;
+}
+.mobile .right-side ul li
+{
+    font-size: 20px;
+}
+.mobile .more
+{
+    margin-left: 25px;
+}
+/*End mobile Section*/
+/*Start themes Section*/
+.themes
+{
+    margin: 50px 0px;
+}
+.themes .left-side
+{
+    padding: 32px 0px 30px 40px;
+    background-color: #e1e1e1;
+}
+.themes .left-side span
+{
+    font-size: 20px;
+}
+.themes img
+{
+    opacity: 0.7;
+}
+.themes img:hover
+{
+    opacity: 1;
+}
+/*End themes Section*/
+/*Start News Section*/
+.news
+{
+    padding-left: 5%;
+    background-color: white;
+    margin: auto;
+    width: 90%;
+}
+.news div
+{
+    margin-left: 1%;
+    width: 30%;
+    font-family:  sans-serif;
+    float: left;
+}
+.news div:hover
+{
+    background-color: lightgray;
+    padding: 10px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.news div:first-child
+{
+    text-align: center;
+    width: 100%;
+    float: none;
+    margin: 40px 0px;
+}
+.news:hover div:first-child
+{
+    background-color: white;
+}
+.news div p:first-of-type
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.news div:first-of-type p
+{
+    font-weight: 100;
+}
+
+/*End News Section*/
+.reviows
+{
+    width: 100%;
+    padding: 200px;
+    background-image:url(../img/keybourd.jfif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.reviows .overlay
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(255, 255, 255, 0.8);
+}
+/*Start contact Section*/
+.contact-us
+{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.contact-us div
+{
+    float: left;
+    width: 20%;
+    margin: 70px 0px 70px 10%;
+}
+.contact-us div a
+{
+    color: black;
+}
+/*End contact Section*/
+/*Start footer Section*/
+.footer
+{
+    color: white;
+    background-color: #151313; 
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.posts ,.footer-left
+{
+    width: 22%;
+    margin-right: 50px;
+}
+.footer-left span
+{
+    font-size: 20px;
+}
+.posts div
+{
+    display: flex;
+    margin-bottom: 5px;
+}
+.posts img
+{
+    width: 35px;
+    height: 35px;
+}
+.posts div p
+{
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.gallery div 
+{
+    width: 50px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+footer
+{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+footer a
+{
+    color: white;
+}
+footer a:hover
+{
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+}
+/*End footer Section*/
+/* Media Queries*/
+@media (max-width:479px)
+{
+    /*Start Navbar Section*/
+    .container , nav
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    nav ul li 
+    {
+        display: none;
+    }
+    
+    nav ul li:first-of-type
+    {
+        display: block;
+    }
+    nav ul li:first-of-type a
+    {
+        margin-right: 0px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .dropdown 
+    {
+        margin-bottom: 10px;
+    }
+    .dropdown .dropdown-menu li
+    {
+        
+        margin-left: -50px;
+    }
+    .dropdown .dropdown-menu li:first-of-type
+    {
+        margin-top: 0px;
+    }
+    .dropdown:hover
+    {
+        margin-bottom: 150px;
+    }
+    /*End Navbar Section*/
+    header h1
+    {
+        padding-top: 70px;
+        font-size: 35px;
+    }
+    header p
+    {
+        font-size: 15px;
+    }
+    /*Start our-services Section*/
+    .our-services div
+    {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .our-services div:first-of-type , .our-services div:nth-of-type(4)
+    {
+        margin-left:20px;
+    }
+    /*End our-services Section*/
+    /*Start responsive Section*/
+    .responsive 
+    {
+        padding-left: 0px;
+        height: 350px;
+    }
+    .responsive h3
+    {
+        font-size: 25px;
+    }
+    .responsive .left-side
+    {
+        margin-left: 10px;
+        width: 100%;
+        float: left;
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+    .responsive .right-side
+    {
+        width: 100%;
+        background-color:#e1e1e1;
+        margin-bottom: 40px;
+    }
+    .responsive .more
+    {
+        margin-left: 110px;
+    }
+    /*End responsive Section*/
+    /*Start our-works Section*/
+    .our-works .header p
+    {
+        font-size: 17px;
+    }
+    .work-models > div
+    {
+        width: 94%;
+        margin: 20px 0px 20px 10px;
+    }
+    /*End our-works Section*/
+    /*Start mobile Section*/
+    .mobile 
+    {
+        position: relative;
+        left: 0px;
+    }
+    .mobile .right-side
+    {
+        position: absolute;
+        top: 0;
+        left: -20;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .mobile .left-side
+    {
+        position: relative;
+        padding-top: 223px;
+        width: 100%;
+    }
+    .mobile .left-side img
+    {
+        margin-top: 150px;
+        height: 340px;
+    }
+   
+    .mobile .right-side h3
+    {
+        font-size: 18px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .mobile .right-side  p 
+    {
+        font-size: 17px;
+    }
+    .mobile .right-side ul li
+    {
+        font-size: 17px;
+    }
+    /*End mobile Section*/
+    /*Start themes Section*/
+    .themes 
+    {
+        height: 640px;
+    }
+    
+    .themes .left-side 
+    {
+        width: 100%;
+        padding:15px 15px;
+    }
+    .themes .right-side 
+    {
+        width: 100%;
+    }
+    /*End themes Section*/
+    .news 
+    {
+        padding-left: 0px;
+    }
+    .news div
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .news  h3
+    {
+        font-size: 23px;
+    }
+    .news div:first-of-type p
+    {
+        font-size: 17px;
+    }
+    .reviows
+    {
+        display: none;
+    }
+    .contact-us div
+    {
+        margin: 70px 0px 70px 8%;
+        font-size: 10px;
+    }
+    .footer
+    {
+        display: block;
+    }
+    .footer h4
+    {
+        font-size: 25px;
+    }
+    .footer-left
+    {
+        width: 100%; 
+        margin-left: 15px;
+    }
+    .footer-left span
+    {
+        font-size: 22px;
+    }
+    .posts
+    {
+        width: 100%; 
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+      .posts div p
+    {
+        font-size: 20px;
+    }
+    .gallery 
+    {
+        display: flex;
+        flex-flow: wrap;
+        width: 100%; 
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .gallery h4
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .gallery  div
+    {
+        width: 45px;
+        margin-left: 2px;
+    }
+   
+}
+@media (min-width:480px)and (max-width:767px)
+{   
+    /*Start Navbar Section*/
+    nav ul li 
+    {
+        display: none;
+    }
+    nav ul li:first-of-type
+    {
+        display: block;
+    }
+    nav ul li:first-of-type a
+    {
+        margin-right: 0px;
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    .dropdown 
+    {
+        margin-bottom: 10px;
+    }
+    .dropdown .dropdown-menu li
+    {
+        
+        margin-left: -50px;
+    }
+    .dropdown .dropdown-menu li:first-of-type
+    {
+        margin-top: 0px;
+    }
+    .dropdown:hover
+    {
+        margin-bottom: 150px;
+    }
+    /*End Navbar Section*/
+    header h1
+    {
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    /*Start our-services Section*/
+    .our-services div
+    {
+        width: 49%;
+        float: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .our-services div:first-of-type , .our-services div:nth-of-type(4)
+    {
+        margin-left:0 ;
+    }
+    .our-services h4
+    {
+        padding-left: 30px;
+        text-align: left;
+    }
+    .our-services div p
+    {
+        margin-left: 30px;
+    }
+    /*End our-services Section*/
+    /*Start responsive Section*/
+    .responsive 
+    {
+        padding-left: 60px;
+        height: 350px;
+    }
+    .responsive h3
+    {
+        font-size: 25px;
+    }
+     .responsive .right-side
+    {
+        padding: 90px 0px 0px 0px;
+    }
+    .responsive .more
+    {
+        margin-left: 50px;
+    }
+    .left-side
+    {
+        width: 50%;
+        float: left;
+    }
+    .right-side
+    {
+        width: 50%;
+    }
+    /*End responsive Section*/
+    /*Start our-works Section*/
+    .our-works .header p
+    {
+        margin:auto;
+        font-size: 17px;
+        text-align: center;
+    }
+    .work-models 
+    {
+        margin-left: 40px;
+    }
+    .work-models > div
+    {
+        float: left;
+        width: 41%;
+        margin: 0px 0px 20px 20px;
+    }
+    /*End our-works Section*/
+    /*Start mobile Section*/
+    .mobile .left-side img
+    {
+        height: 300px;
+        padding-top: 50px;
+    }
+    .mobile .right-side h3
+    {
+        padding-top: 0px;
+        font-size: 25px
+    }
+    .mobile .right-side  p 
+    {
+        font-size: 15px;
+    }
+    .mobile .right-side ul li
+    {
+        font-size: 15px;
+    }
+    /*End mobile Section*/
+    /*Start themes Section*/
+    .themes 
+    {
+        height: 340px;
+        overflow: hidden;
+    }
+    .themes img
+    {
+        height: 100%;
+    }
+    .themes h4
+    {
+        font-size: 18px;
+    }
+    .themes .left-side 
+    {
+        padding: 0px 10px 1px 40px;
+    }
+     .themes .left-side span
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+     .themes p
+    {
+        font-size: 15px;
+    }
+    /*End themes Section*/
+    .reviows
+    {
+        display: none;
+    }
+    .footer
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-left
+    {
+        width: 30%; 
+        margin-left: 30px;
+    }
+    .footer-left span
+    {
+        font-size: 15px;
+    }
+    .posts
+    {
+        width: 30%; 
+        padding-left: 0px;
+        margin-right: 30px;
+    }
+      .posts div p
+    {
+        font-size: 12px;
+    }
+    .gallery
+    {
+        width: 30%; 
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+   
+    
+}
+@media (min-width:768px)and (max-width:991px)
+{
+    /*Start Navbar Section*/
+    .nav-button
+    {
+        display: none;
+    }
+    nav ul li:first-of-type a
+    {
+        margin-right: 27px;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .dropdown 
+    {
+        margin-right: 10px;
+    }
+    /*End Navbar Section*/
+     /*Start our-services Section*/
+ 
+    .our-services div:first-of-type , .our-services div:nth-of-type(4)
+    {
+        margin-left:0 ;
+    }
+    .our-services h4
+    {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .our-services div p
+    {
+        margin-left: 30px;
+    }
+    
+    /*End our-services Section*/
+    /*Start responsive Section*/
+    .responsive 
+    {
+        padding-left: 60px;
+    }
+     .responsive .right-side
+    {
+        padding: 40px 30px 0px 0px;
+    }
+    .left-side
+    {
+        width: 50%;
+        float: left;
+    }
+    .right-side
+    {
+        width: 50%;
+    }
+    /*End responsive Section*/
+    /*Start our-works Section*/
+    .our-works .header p
+    {
+        font-size: 19px;
+    }
+    .work-models > div
+    {
+        float: left;
+        width: 30%;
+        margin: 0px 0px 20px 20px;
+    }
+    /*End our-works Section*/
+    /*Start mobile Section*/
+    .mobile .left-side img
+    {
+        height: 300px;
+        padding-top: 50px;
+    }
+    .mobile .right-side h3 
+    {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .mobile .right-side  p 
+    {
+        font-size: 15px;
+    }
+    .mobile .right-side ul li
+    {
+        font-size: 15px;
+    }
+    /*End mobile Section*/
+    /*Start themes Section*/
+    .themes 
+    {
+        height: 325px;
+        overflow: hidden;
+    }
+    .themes img
+    {
+        height: 100%;
+    }
+    .themes h4
+    {
+        font-size: 18px;
+    }
+    .themes .left-side 
+    {
+        padding: 12px 10px 1px 60px;
+    }
+     .themes .left-side span
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+     .themes p
+    {
+        font-size: 15px;
+    }
+    /*End themes Section*/
+    .footer
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-left
+    {
+        width: 30%; 
+        margin-left: 30px;
+    }
+    .footer-left span
+    {
+        font-size: 15px;
+    }
+    .posts
+    {
+        width: 30%; 
+        padding-left: 0px;
+        margin-right: 30px;
+    }
+      .posts div p
+    {
+        font-size: 12px;
+    }
+    .gallery
+    {
+        width: 30%; 
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+@media (min-width:992px)and (max-width:1199px)
+{
+    .header .left-side
+    {
+        padding-top: 0px;   
+    }
+    .nav-button
+    {
+        display: none;
+    }
+    nav ul li:first-of-type a
+    {
+        margin-right: 200px;
+    }
+    .dropdown 
+    {
+        margin-right: 0px;
+    }
+    .work-models
+    {
+        margin-left: 2%;
+    }
+    .work-models  div
+    {
+        width: 22%;
+    }
+    .mobile .right-side
+    {
+        padding-top: 50px;
+    }
+    .mobile .right-side h3
+    {
+        font-size: 25px;
+    }
+    .mobile .right-side p , .mobile .right-side ul li
+    {
+     
+        font-size: 18px;
+    }
+    
+    .themes
+    {
+        margin: 50px 0px;
+    }
+    
+    .themes .left-side
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #e1e1e1;
+    }
+    .themes .left-side span
+    {
+        font-size: 20px;
+    }
+    .themes img
+    {
+        height: 96%;
+    }
+    .footer-left span
+    {
+        font-size: 17px;
+    }
+    .posts div p 
+    {
+        font-size: 12px;
+        margin-top: 11px;
+    }
+}
+@media (min-width:1200px)
+{
+    
+    .nav-button
+    {
+        display: none;
+    }
+    nav ul li:first-of-type a
+    {
+        margin-right:370px;
+    }
+    .dropdown 
+    {
+        margin-right: -15px;
+    }
+    .mobile .right-side
+    {
+        padding-top: 50px;
+    }
+    .themes .left-side
+    {
+        padding-left: 60px;
+    }
+
+}
